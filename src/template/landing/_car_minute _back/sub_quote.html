@@ -1,0 +1,148 @@
+@@include('./_land_inc/_land_head_top.html')
+
+<!--타이머-->
+<!-- <link rel="stylesheet" href="/static/css/libs/flipTimer.css">
+<script src="/static/js/libs/jquery.flipTimer.js"></script>
+<script src="/static/js/libs/jquery.countdown.min.js"></script> -->
+<link rel="stylesheet" href="http://design.ebiznetworks.co.kr/lhc/rent_car/static/css/landing/car_minute/flipTimer.css">
+<script src="http://design.ebiznetworks.co.kr/lhc/rent_car/static/js/libs/jquery.flipTimer.js"></script>
+<script src="http://design.ebiznetworks.co.kr/lhc/rent_car/static/js/libs/jquery.countdown.min.js"></script>
+
+</head>
+<body class="body-quote">
+    <div class="land-wrap">
+        <main class="land-container land-quote">
+            <section class="sect sect-intro">
+                <div class="sect-container">
+                    <div class="img-bg-area">
+                        <div class="img-bg">
+                            <img class="show-pc" src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/quote_intro_bg.jpg" alt="이미지">
+                            <img class="show-mobile" src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/quote_intro_bg_m.jpg" alt="이미지">
+                        </div>
+                        <div class="img-man show-pc">
+                            <img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/img_man.png" alt="이미지">
+                        </div>
+                        <div class="logo show-pc">
+                            <img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/logo_white.png" alt="로고">
+                        </div>
+                    </div>
+                    <div class="intro-area">
+                        <div class="title">
+                            <img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/intro_title.png" alt="타이틀">
+                        </div>
+                        <div class="date-area">
+                            <div class="day-count-area">
+                                <p class="day-count-txt-box">
+                                    <span class="day-txt">D-DAY</span>
+                                    <span class="day-count"></span>
+                                </p>
+                            </div>
+                            <div class="timer-box">
+                                <div class="icon-boom">
+                                    <img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/icon_boom.png" alt="타이틀">
+                                </div>
+                                <div class="flip-timer">
+                                    <div class="hours"></div>
+                                    <p class="colon">:</p>
+                                    <div class="minutes"></div>
+                                    <p class="colon">:</p>
+                                    <div class="seconds"></div>
+                                </div>
+                                <div id="getting-started"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sect sect-advantages">
+                <div class="sect-container">
+                    <ul class="advantages-ul">
+                        <li><img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/advantage01.png" alt="이미지"></li>
+                        <li class="bar"></li>
+                        <li><img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/advantage02.png" alt="이미지"></li>
+                        <li class="bar"></li>
+                        <li><img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/advantage03.png" alt="이미지"></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sect sect-write">
+                <div class="sect-container">
+                    <div class="title">
+                        <img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/write_title.png" alt="버튼">
+                    </div>
+                    <div class="write-area">
+                        <ul class="in-write-ul">
+                            <li>
+                                <input type="text" placeholder="1. 이름을 입력해 주세요.">
+                            </li>
+                            <li>
+                                <input type="text" placeholder="2. 휴대폰 번호를 입력해 주세요.">
+                            </li>
+                            <li>
+                                <input type="text" placeholder="3. 원하시는 차종을 입력해 주세요.">
+                            </li>
+                            <li>
+                                <input type="text" placeholder="4. 지역을 입력해 주세요.">
+                            </li>
+                        </ul>
+                        <a href="#none" class="btn-quote">
+                            <img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/btn_quote.png" alt="버튼">
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="sect sect-footer">
+                <div class="sect-container">
+                    <div class="tell-area">
+                        <div class="logo">
+                            <img src="http://design.ebiznetworks.co.kr/lhc/rent_car/img/landing/car_minute/quote/logo_white.png" alt="로고">
+                        </div>
+                        <p class="tell-txt">전/화/상/담</p>
+                        <p class="tell-num">1666-7873</p>
+                    </div>
+                    <div class="copy-area">
+                        <p>
+                            (주)특별견적서 I 대표이사 : 박기범 I 서울특별시 강남구 테헤란로82길 15,(대치동 DI타워 4층)
+                        </p>
+                        <p> 
+                            사업자등록번호 : 220-88-95318 I 통신판매업신고번호 : 제2021-서울강남-02623호 I 팩스번호 : 02-6255-3096
+                        </p>
+                        <p>
+                        COPYRIGHT ⓒ SPECIALPRICE. ALL RIGHTS RESERVED.
+                        
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script>
+            $(document).ready(function(){
+                //첫세팅
+                setTiemer();
+                //리사이즈시
+                $("body").resize(function(){
+                    setTiemer();
+                });
+                //D-DAY만 변경
+                $(".day-count").countdown("2021/03/31", function(event) {
+                    $(this).text(
+                        // event.strftime('%D days %H:%M:%S')
+                        event.strftime('%D')
+                    );
+                });
+            });
+
+            let setTiemer = function(){
+                //시간만 변경
+                $('.flip-timer').flipTimer({
+                    direction: 'down', 
+                    date:'3 31, 2021 00:00:01', 
+                }); 
+            }
+
+
+        </script>        
+    </div>
+</body>
+</html>

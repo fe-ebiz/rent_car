@@ -1,0 +1,361 @@
+/*마지막 페이지*/
+.body-quote{
+    background-color: #373737;
+}
+
+.land-wrap .land-quote{
+    
+    .sect-intro{
+        position: relative;
+        .sect-container{
+            position: relative;
+            .img-bg-area{
+                position: relative;
+                .img-man{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 66.3rem;
+                }
+                .logo{
+                    position: absolute;
+                    top: 3.0rem;
+                    right: 4.0rem;
+                    width: 120px;
+                }
+
+            }
+            .intro-area{
+                padding-top: 7.2rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                .title{
+                    width: 107.3rem;
+                    margin: 0 auto;
+                }
+                .date-area{
+                    margin-top: 7.0rem;
+                    .p-date{
+                        text-align: center;
+                        color: #fff;
+                        
+                        font-size: 3.7rem;
+                        font-weight: 300;
+                    }
+                    .day-count-area{
+                        .day-count-txt-box{
+                            z-index: 10;
+                            color: #fff;
+                            font-size: 5.6rem;
+                            width: 32.2rem;
+                            margin: 0 auto;
+                            text-align: center;
+                            position: relative;
+                            .day-txt{
+                            }
+                            &::after{
+                                z-index: -1;
+                                position: absolute;
+                                bottom: 1px;
+                                left: 0;
+                                right: 0;
+                                margin: 0 auto;
+                                content: "";
+                                background-color: #b72854;
+                                width: 100%;
+                                height: 1.3rem;
+                                width: 32.2rem;
+                            }
+                        }
+                    }
+                    .timer-box{
+                        margin-top: 1.0rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        .icon-boom{
+                            width: 12.2rem;
+                            margin-right: 3.0rem;
+                        }
+                        .flip-timer{
+                            display: flex;
+                            *{
+                                font-family: 'Noto Sans KR', sans-serif;
+                                line-height: 1;
+                            }
+                            .colon{
+                                color: #000;
+                                // font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .sect-advantages{
+        // height: 200px;
+        background-color: #fadfa1;
+        padding-top: 7.8rem;
+        padding-bottom: 6.8rem;
+        .advantages-ul{
+            margin: 0 auto;
+            // max-width: 1320px;
+            // width: 100%;
+            width: 132.0rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &>li{
+                img{
+                    // max-width: 100%;
+                    // width: 100%;
+                    width: auto;
+                    height: 26.2rem;
+                }
+            }
+            &>li.bar{
+                background-color: #fff;
+                width: 3px;
+                height: 14.5rem;
+            }
+        }
+    }
+    .sect-write{
+        background-color: #f4ba34;
+        padding-top: 7.0rem;
+        padding-bottom: 6.0rem;
+        .sect-container{
+            .title{
+                margin: 0 auto;
+                width: 49.3rem;
+            }
+            .write-area{
+                width: 78.0rem;
+                margin: 0 auto;
+                margin-top: 6.2rem;
+                .in-write-ul{
+                    &>li{
+                        width: 100%;
+                        margin-bottom: 1.8rem;
+                        &:last-of-type{
+                            margin-bottom: 0;
+                        }
+                        input{
+                            width: 100%;
+                            height: 8.8rem;
+                            border-radius: 6px;
+                            padding-left: 3.4rem;
+                            color: #2c2c2c;
+                            font-weight: 500;
+                            font-size: 4.0rem;
+                            letter-spacing: -1px;
+                            &::placeholder {
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                    
+                }
+                .btn-quote{
+                    display: block;
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-top: 5.4rem;
+                }
+            }    
+        }
+        
+    }
+    .sect-footer{
+        background-color: #373737;
+        padding-top: 3.2rem;
+        padding-bottom: 5.3rem;
+        *{
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1;
+        }
+        .sect-container{
+            width: 100%;
+            .tell-area{
+                border-bottom: 1px solid #868686;
+                padding-bottom: 4.0rem;
+                .logo{
+                    width: 110px;
+                    margin: 0 auto;
+                }
+                p{
+                    text-align: center;
+                    
+                }
+                .tell-txt{
+                    margin-top: 1.5rem;
+                    color: #c5c5c5;
+                    font-size: 22px;
+                }
+                .tell-num{
+                    margin-top: 1.0rem;
+                    color: #fff;
+                    font-size: 55px;
+                    font-weight: 500;
+                }
+            }
+            .copy-area{
+                margin-top: 4.0rem;
+                text-align: center;
+                color: #c5c5c5;
+                
+                p{
+                    font-size: 22px;
+                    line-height: 1.6;
+                    // margin-bottom: 1.4rem;
+                    letter-spacing: -0.5px;
+                    word-break: keep-all;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:900px){
+    .land-wrap .land-quote{
+        .sect-intro{
+            .sect-container{
+                
+                .img-bg-area{
+                    
+                    .img-man{
+      
+                    }
+                    .logo{
+   
+                    }
+    
+                }
+                .intro-area{
+
+                    .title{
+                        width: 72.0rem;
+                    }
+                    .date-area{
+                        margin-top: 5.0rem;
+                        .p-date{
+          
+                        }
+                        .day-count-area{
+                            .day-count-txt-box{
+                     
+                                .day-txt{
+                                }
+                                &::after{
+        
+                                }
+                            }
+                        }
+                        .timer-box{
+                            align-items: center;
+                            .icon-boom{
+                                width: 10.0rem;
+                                margin-right: 2.0rem;
+                            }
+                            .flip-timer{
+                                margin-top: 2.0rem;
+                                *{
+                           
+                                }
+                                .colon{
+                           
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .sect-advantages{
+            padding-top: 3.0rem;
+            padding-bottom: 3.2rem;
+            .advantages-ul{
+                width: 100%;
+                padding: 0 6.0rem;
+                margin: 0 auto;
+                &>li{
+                    img{
+                        height: 20.0rem;
+                    }
+                }
+                &>li.bar{
+                    width: 2px;
+                    height: 10.0rem;
+                }
+            }
+        }
+        .sect-write{
+ 
+            .sect-container{
+                .title{
+          
+                }
+                .write-area{
+                    .in-write-ul{
+                        &>li{
+                            
+                            &:last-of-type{
+                              
+                            }
+                            input{
+                                height: 10.0rem;
+                                font-size: 3.8rem;
+                                &::placeholder {
+                                   
+                                }
+                            }
+                        }
+                        
+                    }
+                    .btn-quote{
+         
+                    }
+                }    
+            }
+            
+        }
+        .sect-footer{
+            
+            *{
+                
+            }
+            .sect-container{
+                width: 100%;
+                .tell-area{
+                    .logo{
+                        width: 13.0rem;
+                    }
+                    p{
+                        
+                        
+                    }
+                    .tell-txt{
+                        font-size: 3.0rem;
+                    }
+                    .tell-num{
+                        font-size: 5.5rem;
+                    }
+                }
+                .copy-area{
+                    padding: 0 5.2rem;
+                    p{
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
